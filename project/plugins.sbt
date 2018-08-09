@@ -13,3 +13,6 @@ addSbtPlugin("com.geirsson" % "sbt-scalafmt" % "1.5.1")
 
 // scala doc をプロジェクトで１つにまとめてくれる
 addSbtPlugin("com.eed3si9n" % "sbt-unidoc" % "0.4.1")
+
+// コードのカバレッジ用
+addSbtPlugin("org.scoverage" % "sbt-scoverage" % "1.5.1")

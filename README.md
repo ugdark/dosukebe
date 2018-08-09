@@ -2,7 +2,7 @@
 オレオレ用のscalaライブラリを作ってみたいだけ。  
 俺が使いたいから
 
-
+[![Build Status](https://travis-ci.org/ugdark/dosukebe.svg?branch=master)](https://travis-ci.org/ugdark/dosukebe)
 
 
 ## core-modelについて
@@ -40,4 +40,13 @@ sbt test  // テスト動作確認
 
 ```bash
 sbt unidoc
+```
+
+### creacode coverage
+
+テストコードのカバー率のレポート  
+`target/scala-2.12/scoverage-report`に出力される
+
+```bash
+sbt clean coverage test coverageReport coverageAggregate
 ```
