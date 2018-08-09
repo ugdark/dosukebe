@@ -1,4 +1,4 @@
-package com.kokodayo.core.model
+package com.kokodayo.dosukebe.core.model
 
 /**
   *

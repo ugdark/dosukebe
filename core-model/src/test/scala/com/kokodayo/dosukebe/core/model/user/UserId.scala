@@ -1,6 +1,6 @@
-package com.kokodayo.core.model.user
+package com.kokodayo.dosukebe.core.model.user
 
-import com.kokodayo.core.model.Identifier
+import com.kokodayo.dosukebe.core.model.Identifier
 
 trait UserId extends Identifier[Long]
 

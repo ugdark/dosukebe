@@ -1,4 +1,4 @@
-package com.kokodayo.core.model.user
+package com.kokodayo.dosukebe.core.model.user
 
 import java.time.LocalDate
 

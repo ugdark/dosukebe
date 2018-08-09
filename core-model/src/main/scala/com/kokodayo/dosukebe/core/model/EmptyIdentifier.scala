@@ -1,4 +1,4 @@
-package com.kokodayo.core.model
+package com.kokodayo.dosukebe.core.model
 
 /**
   * 空の識別子を表す値オブジェクト。

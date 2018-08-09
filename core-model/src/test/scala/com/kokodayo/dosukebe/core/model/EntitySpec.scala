@@ -1,8 +1,8 @@
-package com.kokodayo.core.model
+package com.kokodayo.dosukebe.core.model
 
 import java.time.LocalDate
 
-import com.kokodayo.core.model.user.{EmptyUserId, User, UserId}
+import com.kokodayo.dosukebe.core.model.user.{EmptyUserId, User, UserId}
 import org.scalatest.FreeSpec
 
 class EntitySpec extends FreeSpec {

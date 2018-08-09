@@ -1,4 +1,4 @@
-package com.kokodayo.core.model
+package com.kokodayo.dosukebe.core.model
 
 /**
   * 識別子の値が空だった場合の例外。
