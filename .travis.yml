@@ -1,4 +1,4 @@
-anguage: scala
+language: scala
 sudo: false
 cache:
   directories:
