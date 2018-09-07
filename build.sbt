@@ -4,10 +4,17 @@ lazy val commonSettings = Seq(
   startYear := Some(2018),
   scalaVersion := "2.12.6",
   scalacOptions := Seq(
-    "-feature",
     "-deprecation",
+    "-feature",
     "-unchecked",
-    "-Xlint"
+    "-Xlint",
+    "-Ywarn-dead-code",
+    "-Ywarn-numeric-widen",
+    "-Ywarn-unused",
+    "-Ywarn-unused-import",
+    "-Ywarn-value-discard"
+    // 警告をエラーにする（お好みに応じて）
+    , "-Xfatal-warnings"
   ),
   scalacOptions in (Compile, doc) := Seq("-diagrams") // docにグラフを追加する
 )
