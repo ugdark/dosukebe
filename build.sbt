@@ -1,7 +1,7 @@
 lazy val commonSettings = Seq(
   version := "1.0",
   organization := "com.kokodayo",
-  startYear := Some(2018),
+  startYear := Some(2019),
   scalaVersion := "2.12.6",
   scalacOptions := Seq(
     "-deprecation",
@@ -29,9 +29,20 @@ lazy val coreModel = Project("core-model", file("core-model"))
   .settings(commonSettings)
   .settings(testSettings)
 
+
+lazy val util = project.in(file("util"))
+  .settings(commonSettings)
+  .settings(testSettings)
+  .settings(
+    libraryDependencies ++= Seq(
+      "ch.qos.logback" % "logback-classic" % "1.2.3"
+    )
+  )
+
 lazy val dosukebe = (project in file("."))
   .settings(commonSettings)
   .enablePlugins(ScalaUnidocPlugin)
   .aggregate(
-    coreModel
+    coreModel,
+    util
   )
