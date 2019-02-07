@@ -1,6 +1,5 @@
 package com.kokodayo.dosukebe.util
 
-
 import org.slf4j.{LoggerFactory, Logger => Slf4jLogger}
 
 /**
